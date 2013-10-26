@@ -25,7 +25,9 @@ def classify_poker_hand(poker_hand)
 	c1=poker_hand.select{|i| poker_hand}.uniq.size
 
 	#puts "ci = #{c1}"
-	if(c1==4)
+	if(poker_hand.size!=5)
+		return :too_many_or_too_few_cards
+	elsif(c1==4)
 		return :one_pair
 	elsif(poker_hand.max>13)
 		return :at_least_one_card_is_out_of_bounds

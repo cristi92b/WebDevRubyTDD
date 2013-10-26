@@ -228,7 +228,7 @@ class TestAbstractPoker < Test::Unit::TestCase
   end # def test_at_least_one_card_is_not_an_integer_scenario
 =end
 
-=begin
+
   # A poker hand should have exactly 5 cards
   def test_too_many_or_too_few_cards_scenario
     # Arrange (a.k.a. define input)
@@ -245,7 +245,7 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [5,9,5,7,5,1,1,1] is not classified as too many or too few cards'
     )
   end # def test_too_many_or_too_few_cards_scenario
-=end
+
 
 =begin
   # A poker hand needs to be a Ruby array
