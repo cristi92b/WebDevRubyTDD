@@ -190,7 +190,7 @@ class TestAbstractPoker < Test::Unit::TestCase
   end # def test_impossible_hand_scenario
 
 
-=begin
+
   # At least one card is out of bounds
   def test_at_least_one_card_is_out_of_bounds_scenario
     # Arrange (a.k.a. define input)
@@ -207,7 +207,7 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [5,1500,5,7,5] is not classified as at least one card is out of bounds'
     )
   end # def test_at_least_one_card_is_out_of_bounds_scenario
-=end
+
 
 =begin
   # At least one card is not an integer
