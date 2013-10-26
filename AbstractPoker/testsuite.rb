@@ -171,7 +171,7 @@ class TestAbstractPoker < Test::Unit::TestCase
   end # def test_valid_but_nothing_special_scenario
 
 
-=begin
+
   # It is not possible to have a poker hand with 5 identical cards
   def test_impossible_hand_scenario
     # Arrange (a.k.a. define input)
@@ -188,7 +188,7 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [7,7,7,7,7] is not classified as impossible hand'
     )
   end # def test_impossible_hand_scenario
-=end
+
 
 =begin
   # At least one card is out of bounds

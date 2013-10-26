@@ -38,7 +38,8 @@ def classify_poker_hand(poker_hand)
 		return :three_of_a_kind
 	elsif(c2==2)
 		return :two_pairs
-
+	elsif(c1==1)
+		return :impossible_hand
 	else
 		return :valid_but_nothing_special
 	end
