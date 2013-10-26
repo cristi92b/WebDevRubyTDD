@@ -152,7 +152,7 @@ class TestAbstractPoker < Test::Unit::TestCase
   end # def test_four_of_a_kind_scenario
 
 
-=begin
+
   # Just a regular/ordinary poker hand
   def test_valid_but_nothing_special_scenario
     # Arrange (a.k.a. define input)
@@ -169,7 +169,7 @@ class TestAbstractPoker < Test::Unit::TestCase
       failure_message = 'A poker hand of [2,9,5,7,3] is not classified as valid but nothing special'
     )
   end # def test_valid_but_nothing_special_scenario
-=end
+
 
 =begin
   # It is not possible to have a poker hand with 5 identical cards
